@@ -24,6 +24,7 @@ export default class InvoiceFactory {
       return new Product(product, productValidation)
     })
     const inputInvoice = {
+      id: input.id,
       name: input.name,
       document: input.document,
       address: address,

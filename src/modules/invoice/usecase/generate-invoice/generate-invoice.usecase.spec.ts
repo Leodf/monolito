@@ -3,6 +3,7 @@ import GenerateInvoiceUseCase from './generate-invoice.usecase'
 const mockRepository = () => {
   return {
     save: jest.fn(),
+    find: jest.fn(),
   }
 }
 const mockInput = () => ({
